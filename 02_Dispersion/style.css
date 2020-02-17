@@ -1,0 +1,163 @@
+body {
+    background-color: #111111;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    font-family: 'Source Code Pro', monospace;
+    cursor: grab;
+    user-select: none;
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+
+a {
+    color: white;
+}
+
+#title {
+    position: fixed;
+    padding: 20px;
+    font-size: 30px;
+    letter-spacing: 5px;
+    color: white;
+    z-index: 10;
+    text-decoration: underline;
+}
+
+.title:hover {
+    cursor: pointer;
+}
+
+.seth {
+    position: fixed;
+    font-size: 30px;
+    top: 20px;
+    right: 20px;
+    color: white;
+    z-index: 10;
+}
+
+.box {
+    position: fixed;
+    background-color: white;
+    height: 75px;
+    width: 100%;
+    visibility: hidden;
+    z-index: 9;
+}
+
+.text {
+    position: relative;
+    font-size: 18px;
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    top: 60px;
+    line-height: 22px;
+    text-align: justify;
+    color: black;
+    visibility: hidden;
+    z-index: 8;
+}
+
+img {
+    visibility: visible;
+}
+
+#sethPic {
+    position: fixed;
+}
+
+#pic1 {
+    position: fixed;
+    top: -110px;
+    left: 260px;
+    z-index: 2;
+}
+
+#pic2 {
+    position: fixed;
+    top: -5px;
+    left: 790px;
+    z-index: 3;
+}
+
+#pic3 {
+    position: fixed;
+    top: 256px;
+    left: 725px;
+    z-index: 0;
+}
+
+#pic4 {
+    position: fixed;
+    top: 200px;
+    left: 70px;
+    z-index: 1;
+}
+
+#pic5 {
+    position: fixed;
+    top: 500px;
+    left: 1160px;
+    z-index: 3;
+}
+
+#pic6 {
+    position: fixed;
+    top: 640px;
+    left: 550px;
+    z-index: 0;
+}
+
+#pic7 {
+    position: fixed;
+    top: 640px;
+    left: 245px;
+    z-index: 3;
+}
+
+#pic8 {
+    position: fixed;
+    top: 70px;
+    left: 1160px;
+    z-index: 2;
+}
+
+#pic9 {
+    position: fixed;
+    top: 600px;
+    left: 1250px;
+    z-index: 2;
+}
+
+#pic10 {
+    position: fixed;
+    top: 500px;
+    left: -10px;
+    z-index: 0;
+}
+
+#pic11 {
+    position: fixed;
+    top: 800px;
+    left: 600px;
+    z-index: 0;
+}
+
+#pic12 {
+    position: fixed;
+    top: 100px;
+    left: 1600px;
+    z-index: 1;
+}
+
+#pic13 {
+    position: fixed;
+    top: 100px;
+    left: -175px;
+    z-index: 3;
+}
+
