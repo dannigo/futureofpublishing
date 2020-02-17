@@ -15,6 +15,10 @@ body {
     padding-top: 10px;
 }
 
+a {
+    color: white;
+} 
+
 a:hover {
     font-style: italic;
 }
