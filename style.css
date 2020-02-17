@@ -6,11 +6,17 @@ body {
 }
 
 .title {
-    font-size: 60px;
+    font-size: 90px;
 }
 
-a {
+.links {
     color: white;
+    font-size: 30px;
+    padding-top: 10px;
+}
+
+a:hover {
+    font-style: italic;
 }
 
 a:visited {
